@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<head></head>
+<body>
+    <script src="dist/typescriptServices.min.js"></script>
+    <script>
+        const tsCode = 'let num: number = 123;';
+        const jsCode = window.ts.transpile(tsCode);
+        document.write(jsCode);
+    </script>
+</body>
